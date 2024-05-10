@@ -2,6 +2,6 @@
 
 @section('content')
 
-<h1>Trains:</h1>
+<h1>welcome</h1>
 
 @endsection
