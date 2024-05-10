@@ -29,6 +29,7 @@
                 </div>
             </div>
         @empty
+            <p>No trains available</p>
         @endforelse
     </div>
 </div>
