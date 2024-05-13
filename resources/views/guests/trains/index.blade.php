@@ -26,6 +26,16 @@
                     <p>
                         Alle ore: {{$train->arrival_time}}
                     </p>
+
+
+                    <p>
+                        Codice Treno: {{$train->train_code}}
+                    </p>
+                    <p>
+                        Numero di Carrozze: {{$train->number_of_carriages}}
+                    </p>
+
+
                 </div>
             </div>
         @empty

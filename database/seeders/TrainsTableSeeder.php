@@ -22,7 +22,7 @@ class TrainsTableSeeder extends Seeder
             $train->departure_time = $faker->time();
             $train->arrival_time = $faker->time();
             $train->train_code = '#' . $faker->numberBetween(1000, 9000);
-            $train->number_of_carriages = $faker->randomDigit();
+            $train->number_of_carriages = $faker->numberBetween(1, 5);
             $train->on_time = $faker->boolean();
             $train->save();
         }
